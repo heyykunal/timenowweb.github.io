@@ -1,0 +1,526 @@
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.bx-1 {
+  padding: 50px 60px 40px 115px;
+}
+
+nav {
+  display: flex;
+  margin-bottom: 1.2in;
+  font-size: 18px;
+}
+
+nav img {
+  width: 28px;
+  cursor: pointer;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.first-section ul {
+  display: flex;
+  margin-left: 40px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(109, 109, 109);
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.8s ease;
+}
+
+nav a:hover {
+  background-color: rgb(0, 0, 0, 0.07);
+  color: #000;
+}
+
+.bx-1 h1 {
+  font-size: 55px;
+  color: rgb(30, 27, 99);
+  margin-bottom: 15px;
+}
+
+.main-para {
+  color: rgb(109, 109, 109);
+  width: 80%;
+  font-size: 18.5px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.violet-btn {
+  background-color: rgb(30, 27, 99);
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 20px 30px;
+  font-size: 19px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.6;
+}
+.violet-btn:hover {
+  background-color: rgb(66, 60, 170);
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+}
+
+.btns a {
+  font-size: 19px;
+  font-weight: 700;
+  margin-left: 30px;
+  text-decoration: none;
+  color: slategrey;
+}
+
+.encrypt {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.encrypt img {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.encrypt p {
+  width: 100%;
+  font-size: 17px;
+  color: rgb(109, 109, 109);
+}
+
+.encrypt strong {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bx-2 {
+  background-color: rgb(95, 210, 233);
+  padding: 40px 55px 40px 55px;
+}
+
+.bx-2 button {
+  float: right;
+  margin-bottom: 55px;
+  margin-right: 70px;
+}
+
+.bx-2 img {
+  max-width: 100%;
+}
+
+/* ----SECOND-SECTION---- */
+
+.second-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: auto;
+  padding: 60px 80px 60px 80px;
+}
+
+.second-section .people .profile-pic {
+  display: flex;
+}
+
+.profile-pic img {
+  width: 45px;
+  margin-right: 20px;
+}
+.people {
+  padding: 30px;
+}
+
+.paragraph {
+  padding: 30px;
+  font-size: 18.5px;
+  color: rgb(109, 109, 109);
+  line-height: 26px;
+}
+
+.people h1 {
+  font-size: 38px;
+  color: rgb(30, 27, 99);
+  margin-bottom: 20px;
+}
+
+/* ---THIRD-SECTION--- */
+
+.third-section {
+  display: flex;
+  height: auto;
+  background-color: rgb(95, 210, 233, 0.4);
+}
+
+.col-1 {
+  padding: 90px 20px 90px 115px;
+}
+
+.col-2 {
+  padding: 90px 20px 90px 0px;
+}
+.col-2 a {
+  text-decoration: none;
+  color: rgb(101, 115, 129);
+}
+.third-section h3 {
+  font-size: 18px;
+  color: rgb(29, 108, 219);
+  margin-bottom: 10px;
+}
+
+.third-section h1 {
+  font-size: 37px;
+  width: 70%;
+  line-height: 42px;
+  color: rgb(5, 74, 88);
+  margin-bottom: 15px;
+}
+
+.third-section p {
+  font-size: 18px;
+  color: slategrey;
+  line-height: 26px;
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+.third-section a {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* ---Footer---- */
+
+.footer {
+  padding: 80px 40px;
+  height: auto;
+  font-size: 18.5px;
+}
+
+.horizontal-all {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hor-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input {
+  display: block;
+}
+
+label {
+  color: slategrey;
+}
+
+.links ul li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(80, 79, 79);
+  font-weight: lighter;
+}
+
+.links li:first-child > a {
+  color: #000;
+  font-weight: 700;
+}
+
+.mail-form {
+  margin-top: 15px;
+}
+
+.mail-form label {
+  color: #000;
+  font-weight: 700;
+}
+
+.mail-form form input {
+  padding: 22px;
+  width: 400px;
+  margin-top: 15px;
+  color: rgb(63, 66, 69);
+  border-radius: 7px;
+  outline: none;
+  font-size: 18.5px;
+  border: 0.9px solid rgb(31, 31, 31);
+}
+
+.mail-form button {
+  margin-top: 12px;
+  padding: 17px 20px;
+  font-size: 17px;
+}
+
+.link-1,
+.link-2,
+.link-3 {
+  margin-right: 60px;
+  margin-bottom: 40px;
+}
+
+/* ---responsive tablet---- */
+
+@media screen and (max-width: 1200px) {
+  .bx-1 {
+    padding: 50px 60px 40px 50px;
+  }
+
+  .bx-1 h1 {
+    font-size: 50px;
+  }
+
+  .second-section {
+    padding: 60px 50px;
+  }
+
+  .col-1 {
+    padding: 60px 20px 60px 95px;
+  }
+
+  .col-2 {
+    padding: 60px 20px 60px 20px;
+  }
+
+  .third-section p {
+    width: 80%;
+  }
+
+  .bx-2 {
+    padding: 25px 10px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .second-section {
+    display: block;
+    padding: 70px 60px;
+  }
+
+  .people {
+    padding: 0px;
+  }
+
+  .paragraph {
+    padding: 0px;
+    margin-top: 30px;
+  }
+
+  .first-section {
+    height: auto;
+  }
+
+  .horizontal-all {
+    display: block;
+  }
+
+  .hor-links {
+    justify-content: space-between;
+  }
+
+  .footer form {
+    margin-top: 30px;
+  }
+
+  .footer .logo {
+    margin-bottom: 30px;
+  }
+
+  .footer {
+    padding: 80px 60px;
+  }
+
+  .mail-form form input {
+    padding: 17px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .bx-1 h1 {
+    font-size: 40px;
+  }
+
+  .main-para {
+    width: 100%;
+  }
+
+  .btns {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .btns a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .bx-2 img {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .third-section {
+    display: block;
+  }
+  .col-1 {
+    padding: 60px 20px 20px 60px;
+  }
+
+  .col-2 {
+    padding: 10px 20px 60px 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .first-section {
+    display: block;
+  }
+
+  .bx-2 img {
+    padding: 30px;
+    margin-top: 0px;
+  }
+
+  .bx-2 button {
+    margin-bottom: 10px;
+  }
+
+  .bx-1 h1 {
+    font-size: 55px;
+  }
+
+  .main-para {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .profile-pic {
+    flex-wrap: wrap;
+  }
+
+  .profile-pic img {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .bx-1 h1 {
+    font-size: 44px;
+  }
+
+  .main-para {
+    font-size: 18px;
+  }
+
+  .hor-links {
+    flex-wrap: wrap;
+  }
+
+  .mail-form form input {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .first-section ul {
+    display: none;
+  }
+
+  .fa-bars{
+    display: block;
+    font-size: 25px;
+    color: slategrey;
+    cursor: pointer;
+  }
+
+  .bx-1 {
+    padding: 50px 50px 40px 50px;
+  }
+
+  .bx-1 h1 {
+    font-size: 34px;
+  }
+
+  nav {
+    margin-bottom: 40px;
+    justify-content: space-between;
+  }
+
+  .main-para {
+    font-size: 17px;
+  }
+
+  .bx-2 img {
+    padding: 15px;
+  }
+
+  .bx-2 button {
+    margin-bottom: 20px;
+    margin-right: 30px;
+  }
+
+  .second-section {
+    padding: 70px 50px;
+  }
+
+  .people h1 {
+    font-size: 31px;
+  }
+
+  .paragraph {
+    margin-top: 10px;
+    font-size: 17px;
+  }
+
+  .third-section h1 {
+    font-size: 30px;
+  }
+
+  .third-section p {
+    font-size: 17px;
+  }
+
+  .col-1 {
+    padding: 60px 20px 20px 40px;
+  }
+
+  .col-2 {
+    padding: 10px 20px 60px 40px;
+  }
+}

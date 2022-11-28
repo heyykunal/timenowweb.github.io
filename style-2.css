@@ -1,0 +1,232 @@
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.violet-btn{
+  background-color: rgb(30, 27, 99);
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 15px 20px;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.violet-btn:hover{
+  background-color: rgb(66, 60, 170);
+}
+
+/* ----navbar---- */
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 19px;
+  margin-bottom: 30px;
+  padding: 25px 50px;
+}
+
+nav img{
+  width: 155px;
+  height: 45px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 35px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(31, 30, 30);
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.8s ease;
+}              
+
+.text-box{
+  text-align: center;
+}
+
+.text-box h1{
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.text-box p{
+  display: block;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: rgb(90, 103, 115);
+}
+
+.billed-slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18.5px;
+  color: rgb(73, 82, 92);
+}
+
+ .fa-toggle-on{
+  font-size: 40px;
+  margin-left: 12px;
+  margin-right: 12px;
+  color: rgb(78, 130, 289);
+ }
+
+ /* ----price-box---- */
+
+.price-row{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin: 50px 30px;
+  padding: 20px 40px;
+}
+
+.col{
+  border: 1px solid rgb(191, 202, 213);
+  border-radius: 5px;
+  padding: 25px 35px;
+  max-width: 350px;
+  margin-right: 50px;
+  height: 100%;
+}
+
+.col a{
+  text-decoration: none;
+  color: slategrey;
+}
+
+.col ul{
+  list-style: none;
+  margin-top: 30px;
+  font-size: 17px;
+}
+
+hr{
+  color: rgb(144, 152, 160);
+}
+
+.col li{
+  margin-left: 15px;
+}
+
+.col .points{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.col h1{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.col span{
+  font-size: 19.7px;
+  color: rgb(108, 113, 118);
+  font-weight: lighter;
+  margin-left: -5px;
+}
+
+.col p{
+  font-size: 18px;
+  color: rgb(94, 105, 117);
+}
+
+.col button{
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+  justify-content: center;
+}
+
+/* --footer--- */
+
+.footer{
+  padding: 20px 10px;
+  height: auto;
+  font-size: 18.5px;
+  background-color: rgb(201, 223, 239);
+}
+
+.footer img{
+  margin-left: 50px;
+}
+
+
+.horizontal-all{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input{
+  display: block;
+}
+
+label{
+  color: slategrey;
+}
+
+.links ul li{
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.links a{
+  text-decoration: none;
+  color: rgb(80, 79, 79);
+  font-weight: lighter;
+}
+
+.links li:first-child > a {
+  color: #000;
+  font-weight: 700;
+}
+
+.mail-form{
+  margin-top: 15px;
+}
+
+.mail-form label{
+  color: #000;
+  font-weight: 700;
+}
+
+.mail-form form input {
+  padding: 10px 20px;
+  margin-top: 15px;
+  color: rgb(63, 66, 69);
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  border: 0.9px solid rgb(31, 31, 31);
+}
+
+.mail-form button {
+  margin-top: 12px;
+  padding: 17px 20px;
+  font-size: 17px;
+}
